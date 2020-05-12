@@ -10,7 +10,7 @@ wget -qO /etc/apt/sources.list.d/nitrux-repo-.list https://raw.githubusercontent
 apt -yy -qq update
 
 ### Install Dependencies
-apt -yy -qq install cmake extra-cmake-modules qtbase5-dev git qtdeclarative5-dev libqt5xmlpatterns5-dev autotools-dev automake libtool libgtk2.0-dev libfuse-dev libappimage-dev patchelf  xxd desktop-file-utils 
+apt -yy -qq install cmake extra-cmake-modules qtbase5-dev git qtdeclarative5-dev libqt5xmlpatterns5-dev autotools-dev automake libtool libgtk2.0-dev libfuse-dev libappimage-dev patchelf xxd desktop-file-utils 
 
 ## Build
 mkdir build && cd build
